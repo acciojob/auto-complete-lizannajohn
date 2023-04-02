@@ -1,1 +1,40 @@
-
+.autocomplete {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .autocomplete input {
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .autocomplete ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 5px;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .autocomplete li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .autocomplete li:hover {
+    background-color: #f0f0f0;
+  }
+  .title{
+    margin-left: 50px;
+  }
